@@ -10,7 +10,7 @@ package bitmusic.network.message;
  * Abstract class for messages.
  * @author florian, alexis
  */
-public abstract class AbstractMessage {
+public abstract class AbstractMessage extends Serializable  {
     /**
      * Type of the message.
      */
